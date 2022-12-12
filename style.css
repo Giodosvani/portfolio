@@ -1,11 +1,14 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
 }
 
 body {
+    font-family: 'Ubuntu', sans-serif;
     background-color: #000000;
 }
 
@@ -46,7 +49,7 @@ body {
     margin: 20px 0px 0px 10px;
 }
 
-article {
+div#sobre {
     text-align: center;
     background-color: white;
     padding: 50px;
@@ -54,11 +57,44 @@ article {
 }
 
 ul {
-    columns: 2;
+    columns: 10;
     list-style-type: none;
 }
 
 .lang {
-    width: 100px;
+    width: 80px;
     margin: 20px 5px 0px 10px;
+    transition: .2s;
+}
+
+.lang:hover {
+    transform: scale(1.25, 1.25);
+}
+
+#proj {
+    padding: 50px;
+}
+
+#proj h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#proj p, h2 {
+    color: white;
+}
+
+#proj img {
+    text-align: left;
+    height: 200px;
+    width: 400px;
+    border-radius: 0px 10px;
+    transition: .2s;
+    float: left;
+    margin-right: 10px;
+}
+
+#proj img:hover {
+    opacity: 80%;
 }
