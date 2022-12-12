@@ -56,9 +56,12 @@ div#sobre {
     border-radius: 20px;
 }
 
-ul {
-    columns: 10;
-    list-style-type: none;
+table {
+    margin: auto;
+}
+
+td {
+    padding: 20px;
 }
 
 .lang {
@@ -72,29 +75,25 @@ ul {
 }
 
 #proj {
-    padding: 50px;
+    text-align: center;
+    color: white;
 }
 
 #proj h1 {
-    color: white;
+    
     text-align: center;
     margin-bottom: 20px;
 }
 
-#proj p, h2 {
-    color: white;
-}
-
 #proj img {
-    text-align: left;
-    height: 200px;
-    width: 400px;
     border-radius: 0px 10px;
     transition: .2s;
-    float: left;
-    margin-right: 10px;
 }
 
 #proj img:hover {
     opacity: 80%;
+}
+
+#proj p, h2 {
+    text-align: left;
 }
