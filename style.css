@@ -74,27 +74,23 @@ td {
     transform: scale(1.25, 1.25);
 }
 
-#proj {
-    text-align: center;
+#projetos {
     color: white;
-}
-
-#proj h1 {
-    
+    margin: 20px 0px;
+    position: relative;
     text-align: center;
-    margin-bottom: 20px;
 }
 
-#proj img {
-    border-radius: 0px 10px;
-    transition: .2s;
-}
-
-#proj img:hover {
+#projetos img:hover {
     opacity: 80%;
 }
 
-#proj p, h2 {
-    text-align: left;
-    padding: 0px 20px;
+#userpage {
+    width: fit-content;
+    padding: 20px;
+    display: inline-block;
+}
+
+#userpage img {
+    border-radius: 20px;
 }
