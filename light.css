@@ -23,13 +23,14 @@ body {
 #claro {
     border: 3px solid #a6a6a6;
     color: #a6a6a6;
+    display: none;
 }
 
 #escuro { 
     border: 3px solid black;
     color: black;
     text-align: end;
-    display: none;
+    display: block;
 }
 
 #hello h1 {
