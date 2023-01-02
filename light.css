@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Ubuntu', sans-serif;
-    background-color: #1B1C1E;
+    background-color: #d4d4d4;
 }
 
 #claro, #escuro {
@@ -33,12 +33,13 @@ body {
 }
 
 #hello h1 {
+    color: black;
     text-align: center;
     text-shadow: 0px 5px 15px #4a6783;
 }
 
 #hello {
-    color: #ffffff;
+    color: black;
     padding: 50px;
     margin: auto;
     float: right;
@@ -48,7 +49,7 @@ body {
 }
 
 #hello a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -58,8 +59,8 @@ body {
 }
 
 .line {
-    border: 1px solid yellow;
-    box-shadow: 0px 0px 13px yellow;
+    border: 1px solid rgb(33, 41, 77);
+    box-shadow: 0px 0px 13px purple;
     margin-top: 25px;
 }
 
@@ -71,7 +72,8 @@ body {
 
 div#sobre {
     text-align: center;
-    background-color: #fffef2;
+    color: white;
+    background-color: rgb(38, 38, 38);
     padding: 50px;
     border-radius: 20px;
 }
@@ -95,7 +97,7 @@ td {
 }
 
 #projetos {
-    color: white;
+    color: black;
     margin: 20px 0px;
     position: relative;
     text-align: center;
@@ -114,5 +116,3 @@ td {
 #userpage img {
     border-radius: 20px;
 }
-
-
