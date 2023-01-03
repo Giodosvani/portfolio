@@ -14,10 +14,13 @@ body {
 }
 
 #claro, #escuro {
-    width: 50px;
+    background-color: #1B1C1E;
+    width: fit-content;
     padding: 5px;
     margin: 5px;
     border-radius: 50px;
+    position: sticky;
+    top: 20px;
 }
 
 #claro {
@@ -34,7 +37,7 @@ body {
 
 #hello h1 {
     text-align: center;
-    text-shadow: 0px 5px 15px #4a6783;
+    text-shadow: 0px 5px 15px #ffff0054;
 }
 
 #hello {
@@ -63,10 +66,19 @@ body {
     margin-top: 25px;
 }
 
+#redesSociais {
+    background-color: rgba(0, 0, 0, 0.328);
+    border-radius: 10px;
+    height: fit-content;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
 .logo {
-    justify-content: space-between;
     width: 50px;
-    margin: 20px 0px 0px 10px;
+    margin: 0px 10px 0px 10px;
 }
 
 div#sobre {
