@@ -108,9 +108,10 @@ td {
 
 #projetos {
     color: white;
-    margin: 20px 0px;
+    margin: auto;
     position: relative;
     text-align: center;
+    max-width: 1000px;
 }
 
 #projetos img:hover {

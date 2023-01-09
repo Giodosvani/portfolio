@@ -111,10 +111,11 @@ td {
 }
 
 #projetos {
-    color: black;
-    margin: 20px 0px;
+    color: white;
+    margin: auto;
     position: relative;
     text-align: center;
+    max-width: 1000px;
 }
 
 #projetos img:hover {
