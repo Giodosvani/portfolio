@@ -35,6 +35,13 @@ body {
     display: none;
 }
 
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
 #hello h1 {
     text-align: center;
     text-shadow: 0px 5px 15px #ffff0054;
@@ -44,7 +51,6 @@ body {
     color: #ffffff;
     padding: 50px;
     margin: auto;
-    float: right;
     min-width: 200px;
     max-width: 600px;
     text-align: justify;
