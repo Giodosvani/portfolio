@@ -21,11 +21,13 @@ body {
     border-radius: 50px;
     position: sticky;
     top: 20px;
+    cursor: pointer;
 }
 
 #claro {
     border: 3px solid #a6a6a6;
     color: #a6a6a6;
+    
 }
 
 #escuro { 
